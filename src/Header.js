@@ -14,13 +14,15 @@ function Header(){
             <br/>
             <nav>
                 <ul type='none'>
-                    <li><a href="#">Introduction</a></li>
+                    <li>Introduction</li>
                     <br/>
-                    <li><a href="#">About</a></li><br/>
-                    <li><a href="#">Skills</a></li><br/>
-                    <li><a href="#">Timeline</a></li><br/>
-                    <li><a href="https://drive.google.com/file/d/1Udcj_UTptN6GZMY7lIwM6fYVBersJm5b/view">CV</a></li><br/>
-                    <li><Link to="./Contact">Contact</Link></li>
+                    <li>About</li><br/>
+                    <li>Skills</li><br/>
+                    <li>Timeline</li><br/>
+                    <li>Contact</li><br/>
+                    <li><a href="https://drive.google.com/file/d/1Udcj_UTptN6GZMY7lIwM6fYVBersJm5b/view">CV</a></li>
+                   
+                   {/* <li><Link to="./Contact">Contact</Link></li> */}
 
                 </ul>
             </nav>

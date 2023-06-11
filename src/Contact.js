@@ -5,23 +5,18 @@ function Contact(){
         <div>
         
         <div className="contactform">
-        <h1>Contact</h1>
-             <form name="contact" netlify method="post" onSubmit="submit" data-netlify="true">
+        <h4>Contact</h4>
+             <form name="contact" netlify method="POST" onSubmit="submit">
 
                 <input type="hidden" name="contact" value="contact"></input>
 
                 <table className="table1">
                     <tr>
-                        <td><label>FirstName:</label></td>
-                    <td><input type="text" name="firstname"></input></td>
-                    
+                        <td><label>Name:</label></td>
+                    <td><input type="text" name="name"></input></td>
+
                     </tr>
-                    <tr>
-                        <td><label>LastName:</label></td>
-                    <td><input type="text" name="lastname"></input></td>
-                    
-                    </tr>
-                    <tr>
+                    <tr >
                         <td><label>Email:</label></td>
                     <td> <input type="email" name="email"></input></td>
                    
@@ -34,7 +29,7 @@ function Contact(){
                 </table>
             
                 <br></br>
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
                 <br></br>
              </form>
 

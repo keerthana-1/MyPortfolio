@@ -234,17 +234,20 @@
   }
 }
 
-.contactform{
- 
-  text-align: center;
-}
-.contactform table{
-  padding-left: 500px;
+
+
+.contactform form button{
+  margin-left: 170px;
+  width:10%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+
 }
 .contactform input,
 textarea {
   display: block;
-  width: 100%;
+  width: 200%;
   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
   margin: 0.9vw 0;
   border: 1px solid black;

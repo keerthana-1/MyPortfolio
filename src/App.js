@@ -5,7 +5,7 @@ import Introduction from './Introduction';
 import About from './About';
 import Skills from './Skills';
 import Timeline from './Timeline';
-
+import Contact from './Contact';
 function App() {
   return (
     <div className="App">
@@ -19,6 +19,9 @@ function App() {
         <Skills/>
         <br></br>
         <Timeline />
+
+        <br></br>
+        <Contact/>
       </div>
 
     </div>
